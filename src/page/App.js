@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Player from './player'
 import Logo from '../components/logo'
-import './App.less'
+import { MUSIC_LIST } from '../config'
 
 class App extends Component {
   constructor(props) {
